@@ -23,14 +23,3 @@ do {
 /*for (let i = 1; i <= 10; i++) {
     document.write("<br>cosa " + i);
 }*/
-
-let edad
-
-for (let i = 1; i <= 1; i++) {
-    edad = parseInt(prompt("Ingrese su edad "))
-    if (edad < 18) {
-        document.write("<br>Usted no está habilitado para conducir.");
-    } else {
-        document.write("<br>Usted está habilitado para conducir")
-    }
-};
