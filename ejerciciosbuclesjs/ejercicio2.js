@@ -13,7 +13,7 @@ Si ingreso un numero que no esté dentro del rango de 0 a 10 mostrar un mensaje 
 let s = 1;
 
 for (let i = 1; i <= s; i++) {
-    let calificación = parseInt(prompt("Ponga su calificación: "));
+    let calificación = parseInt(prompt("Ponga su calificación -de 0 a 10-: "));
 
     if (calificación >= 0 && calificación <= 10) {
         if (calificación <= 2) {
