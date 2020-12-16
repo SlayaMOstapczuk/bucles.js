@@ -17,5 +17,6 @@ for (let i = 1; i < n; i++) {
         n++
     } else {
         document.write(texto)
+
     }
 }
